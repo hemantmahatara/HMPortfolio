@@ -1,0 +1,38 @@
+.slider {
+    width: 90%;
+    margin: 5% 5%;
+    /* margin: auto; */
+    height: auto;
+    background: #fff3f3;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.slider:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    margin: 20px 20px;
+}
+
+.images {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+#certimg {
+    width: 50%;
+    height: auto;
+}
+
