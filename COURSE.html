@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,200;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <section class="sub-header1">
+        <nav>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="COURSE.html">PROJECT ENVOLVED</a></li>
+                    <li><a href="blog.html">CERTIFICATE</a></li>
+                    <li><a href="content.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Project and Program Involved</h1>
+
+    </section>
+
+    <!----course---->
+
+
+    <section class="course">
+        <div class="row">
+            <div class="course-col">
+                <div class="video-container">
+                    <!-- <video id="videoPlayer" autoplay muted loop> -->
+                    <video id="videoPlayer" autoplay muted loop>
+                        <source src="./course Photo/hecras.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <!-- <div class="arrows">
+                        <button id="prevBtn">⬅️</button>
+                        <button id="nextBtn">➡️</button>
+                    </div> -->
+                </div>
+                <div class="card-content">
+                    <h3 id="videoTitle">HEC-RAS and RAS-Mapper Flood Modelling</h3>
+                    <div class="content-container">
+                        <p class="content">
+                        <p>
+                            "Excited to share my comprehensive HEC-RAS project journey! 🌊 .For the data I started by
+                            digitizing point data in Google Earth Pro, followed by importing it into ArcGIS for TIN
+                            generation. Utilized this TIN in RASMapper to digitize river geometry such as centerline,
+                            edge,and flow area. Then, conducted steady flow analysis to simulate steady flood scenarios
+                            in my study area.
+                        </p>
+                        <p>
+                            Steady flow analysis in HEC-RAS is crucial for hydraulic modeling as it helps predict water
+                            flow patterns, velocities, and inundation extents under steady-state conditions. This
+                            analysis is
+                            vital for flood modeling, risk assessment, and infrastructure planning.
+                        </p>
+                        <p>
+                            HEC-RAS, or Hydrologic Engineering Center's River Analysis System, is a powerful tool widely
+                            used in engineering, environmental science, and disaster management. Its potential spans
+                            from hydraulic modeling for river systems, floodplain management, bridge and culvert design,
+                            to
+                            assessing environmental impacts of hydraulic structures. In disaster management, HEC-RAS
+                            plays a pivotal role in predicting flood extents, facilitating evacuation planning, and
+                            guiding
+                            flood mitigation efforts.
+                        </p>
+                        <p>I am excited about the numerous applications of HEC-RAS and eager to continue researching its
+                            potential in improving engineering solutions and disaster resilience.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-col">
+                <video autoplay muted loop>
+                    <source src="./course Photo/geoserver.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="card-content">
+                    <h3>Geoserver For Raster Data Visualization in WebGIS</h3>
+                    <div class="content-container">
+                        <p class="content">
+                        <p>
+                            🚀 Excited to share a recent project where I integrated GeoServer with a custom web
+                            application to display raster data using Leaflet! 🌍
+                        </p>
+                        <p>
+                            Here's a brief overview of what I did:
+
+                            1)Visualized Raster Data in QGIS: Styled the raster data and saved the style in .sld format.
+                            <br>
+                            2)Configured GeoServer: Uploaded the raster data and the .sld style to GeoServer. <br>
+                            3)Developed the Web Application: Created a web page using HTML, CSS, and JavaScript,
+                            leveraging the Leaflet library to display the map. <br>
+                            4)Integrated GeoServer WMS Layer: Loaded the WMS layer from GeoServer into the web
+                            application to display the styled raster data. <br>
+                        </p>
+                        <p>
+                            🔧 Technologies Used: <br>
+
+                            QGIS for raster data styling. <br>
+                            GeoServer for serving spatial data. <br>
+                            Leaflet for interactive web maps. <br>
+                            VS Code for web development. <br>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-col">
+                <video autoplay muted loop>
+                    <source src="./course Photo/dbms.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="card-content">
+                    <h3>Integrating PgAdmin PostGIS and WebGIS using Fast API</h3>
+                    <div class="content-container">
+                        <p class="content">
+                        <p>
+                            I developed an interactive web page using HTML, CSS, JavaScript, and Leaflet, showcasing
+                            district and province shapefiles of Nepal. Here’s a quick rundown of what I accomplished:
+                        </p>
+                        <p>
+                            🔹 Textbox & Button: Users can type a district name and click a button to clip the specific
+                            district road network. <br>
+                            🔹 FastAPI & PostgreSQL/PostGIS Integration: The FastAPI is triggered, which directly
+                            queries the PostgreSQL PostGIS database to clip the road network of the selected district.
+                            <br>
+                            🔹 Real-time Display: The clipped road network is then dynamically displayed on the webpage.
+                            <br>
+                            🔹 API Testing: Successfully tested the API using Postman, ensuring it accurately fetches
+                            the specific district roads. <br>
+                        </p>
+                        <p>This project demonstrates the seamless integration of a PostGIS database with a web
+                            application using FastAPI. Check out the video for a detailed walkthrough!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-col">
+                <img src="./course Photo/floodprediction.png" alt="">
+                <div class="card-content">
+                    <h3>Identification and Mapping of Multiple Hazard Risk Zone
+                        Using Remote Sensing and GIS Technique
+                        in Gandaki Province Nepal</h3>
+
+                </div>
+            </div>
+
+            <div class="course-col">
+                <div class="image-slider">
+                    <img id="image" src="./course Photo/cligeos.jpg" alt="CLIGEOS-2024">
+                </div>
+                <div class="card-content">
+                    <h3>CLImbing for the CLImate Geospatial School CLIGEOS-2024</h3>
+                    <div class="content-container">
+                        <p class="content">
+
+                        <p>
+                            A pleasure to join the five-day CLImbing for the CLImate Geospatial School CLIGEOS-2024 at
+                            Directorate of Agriculture Research, Gandaki Province, Lumle Kaski. This event has improved
+                            and showcased my geographic knowledge, and it has taught us about the applications of
+                            geographic information in agriculture and climate change. This program is jointly organized
+                            by <b>UNIVERSITA' DEGLISTUDI DI UDINE, Italy; LJ UNIVERSITY, India; and Center for Space
+                                Science and Geomatics Studies (CSSGS)</b> .🛰📡
+                        </p>
+                        <p>
+                            Key Topics: <br>
+                            1) GIS and Remote Sensing <br>
+                            2)Open-source tools/ Open - source GIS <br>
+                            3) Cartographic Map Portals <br>
+                            4) GeoBigData <br>
+                            5) Xreality (Virtual, Augmented, Mixed) <br>
+                            6) Geospatial Information and Climate Change <br>
+                            7) Drone Surveying ,Remote mapping and Field data collection using open tools <br>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-col">
+                <img src="./course Photo/LULCFINAL.jpg" alt="">
+                <div class="card-content">
+                    <h3>CLImbing for the CLImate Geospatial School CLIGEOS-2024</h3>
+                    <div class="content-container">
+                        <p class="content">
+
+                        <p>
+                            🌿 Exciting news from the field of geospatial science! 🗺I am excited to present the results
+                            of my most recent project: a thorough Land Use and Land Cover (LULC) map of Kaski District,
+                            Nepal. 🏞️ By utilizing supervised classification techniques in conjunction with Sentinel
+                            satellite data, which has an amazing 10-meter resolution, I have produced a map that depicts
+                            details of the local topography.🛰️🌍🛰️🌍
+                        </p>
+                        <p>
+                            🔍 To ensure accuracy, I meticulously collected training samples for 11 distinct land cover
+                            categories using Google Earth Pro. These samples were then used to train the classification
+                            algorithm, enabling it to accurately classify pixels across the entire study area. 📊
+                            Supervised classification involves the use of labelled training data to guide the
+                            classification process, resulting in more precise and interpretable results compared to
+                            unsupervised methods. 💡 By providing the algorithm with examples of each land cover class,
+                            we can ensure that the final LULC map accurately reflects the true characteristics of the
+                            landscape.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-col">
+                <img src="./course Photo/SuitablityAnalysis.jpg" alt="">
+                <div class="card-content">
+                    <h3>Cropland Suitability Analysis for Kaski District, Nepal</h3>
+                    <div class="content-container">
+                        <p class="content">
+
+                        <p>Thrilled to share the results of my recent project where I conducted a comprehensive cropland
+                            suitability analysis for Kaski District in Nepal! Utilizing advanced GIS techniques, I
+                            employed a weighted overlay tool to integrate various parameters including slope, elevation,
+                            land use/land cover (LULC), soil moisture, distance from river, aspect, and distance from
+                            road.
+
+                            By leveraging this multidimensional approach, we were able to identify optimal areas for
+                            agriculture, empowering local communities with data-driven insights to enhance agricultural
+                            productivity and sustainable land use practices.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="course-col">
+                <img src="./course Photo/lidar scanning.jpg" alt="">
+                <div class="card-content">
+                    <h3>Workshop on Terrestrial Laser Scanning (TLS) with Students from University of Southern
+                        Queensland</h3>
+                    <div class="content-container">
+                        <p class="content">
+
+                        <p>great to interact with Professors and Students from University of Southern Queensland and
+                            Pachimanchal Engineering Campus on Surveying. It was a great day with field work on
+                            Terrestrial Laser Scanning (TLS). Thank you for Dev Raj Paudyal sir and Krishna Prasad
+                            Bhandari Sir for this wonderful work of exchange students from Australia and Nepal in
+                            Surveying and Geospatial field where every student get chance to share their experiences and
+                            knowledge each other.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-col">
+                <img src="./course Photo/SAR.jpg" alt="">
+                <div class="card-content">
+                    <h3>Earthquake Displacement Analysis using SAR Technique</h3>
+                    <div class="content-container">
+                        <p class="content">
+
+                        <p>Excited to share groundbreaking insights derived from SAR data via Sentinel-1's INSAR
+                            technology! 🛰️✨ Utilizing interferogram analysis, we've unlocked a fascinating pattern
+                            revealing seismic activity—an invaluable tool for earthquake analysis and disaster
+                            management.
+                        </p>
+                        <p>
+                            SAR (Synthetic Aperture Radar) provides high-resolution, all-weather imaging, while
+                            Sentinel-1, part of the European Space Agency's Copernicus program, offers continuous
+                            monitoring capabilities.
+                        </p>
+                        <p>Analysing the interferometry gives the insist knowledge about any activity that could happen
+                            due to the displacement of the ground. Using Doppler Frequency Shift, we can measure how
+                            much and in which direction the movement of ground occurs. Some of the analyses due to the
+                            use of interferometry are earthquake deformation on land, flood monitoring, landslide
+                            monitoring, ground coverage movement, etc. It is a pretty cool thing which gives precise
+                            information about any of the ground deformations.🛰📡🌐💡</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- mero bus application -->
+    <section class="container">
+        <div class="video-section">
+            <div class="video" style="align-items: center;justify-content: center;">
+                <video autoplay muted loop style="width: 70%; height: auto;">
+                    <source src="./course Photo/merobusapp.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="videotitle">
+                </div>
+            </div>
+        </div>
+        <div class="description-section">
+            <h1>Mero Bus Application: Real-Time Bus Tracking System</h1>
+            <h4>Mero Bus Application is an innovative real-time GPS-based bus tracking system designed to provide
+                precise location information of public buses. This application was developed as part of my final year
+                project to enhance the public transportation experience by offering users a way to track bus locations
+                in real time, using advanced geospatial and software technologies.</h4>
+
+            <p> <b>Key Features of Mero Bus Application:</b> <br>
+                1️⃣ Real-time Bus Tracking: Track bus locations in real-time on every route within Pokhara Valley. Never
+                miss your bus again! <br>
+
+                2️⃣ Route Finder: Plan your journey effortlessly! Enter your source and destination, and our app will
+                display the best routes for you. <br>
+
+                3️⃣ Nearby Bus Stations: Easily locate nearby bus stations within an 800m radius from your current
+                location. No more guessing where to catch your bus! <br>
+
+                4️⃣ Bus Fare Calculator: Wondering how much your bus ride will cost? Our fare calculator provides fare
+                estimates for both normal users and students, following Pokhara Transportation rules. <br>
+
+                5️⃣ Enhanced User Experience: Our user-friendly interface makes navigating the app a breeze. Whether
+                you're a student, a professional, or a traveler, MeroBus caters to all your transportation needs! <br>
+            </p>
+
+            <p>
+                <b>🛠️ Built with Cutting-Edge Technology:</b>
+                The MeroBus app is developed using React Native, a powerful and versatile framework for building
+                cross-platform mobile applications. Leveraging React Native ensures a smooth and responsive user
+                experience across iOS and Android devices. <br>
+
+                <b>📡 Real-time Data Integration:</b>
+                To fetch real-time location data from the device, our app utilizes APIs (Application Programming
+                Interfaces) for seamless communication between the device and the app's backend server. When the device
+                sends real-time location data to the database, our app fetches this data through APIs and displays the
+                current location on the map interface in real-time. <br>
+
+                <b>💻 Database Integration:</b>
+                Integrating the database with the app allows us to store and retrieve critical information efficiently.
+                Through this project, I gained strong knowledge of database integration techniques, including how to
+                structure and query databases to store and retrieve location data, user preferences, and other relevant
+                information. <br>
+
+                <b>🚀 Strengthened App Development Skills:</b>
+                MeroBus project has significantly enhanced my app development skills and deepened my understanding of
+                API integration and database management. Through hands-on experience, I've gained invaluable insights
+                into how to architect and develop robust, feature-rich mobile applications that meet the needs of users
+                effectively. <br>
+            </p>
+        </div>
+    </section>
+    <section>
+        <p></p>
+        <b></b>
+        <p></p>
+    </section>
+    <!-- gps tracker application -->
+    <section class="container">
+        <div class="video-section">
+            <div class="video" style="align-items: center;justify-content: center;">
+                <img src="./course Photo/gpsdevide.jpg" alt="" style="width: 100%; height: auto; border-radius: 15px;">
+                <div class="videotitle">
+                </div>
+            </div>
+        </div>
+        <div class="description-section">
+            <h1>Real Time Location Tracking Device</h1>
+            <p>
+                🚌 Delighted to unveil the result of latest project - a cutting-edge Real-Time Bus Tracking System!
+                🌐 Leveraging advanced technology, my device utilizes three key components: <br>
+                <br>
+
+                <b>ESP32 Microcontroller:</b> At the heart of the system lies the ESP32 microcontroller, a powerhouse of
+                IoT
+                applications. With built-in Wi-Fi and Bluetooth capabilities, it orchestrates the seamless operation of
+                our
+                tracking system. The ESP32 processes location data from the GPS module and manages communication with
+                the
+                GSM module for data transmission. <br> <br>
+
+                <b>SparkFun SAM-M8Q GPS Module:</b> Powered by the u-blox SAM-M8Q chipset, this high-performance GPS
+                module
+                delivers precise location data by harnessing signals from multiple global navigation satellite systems
+                (GNSS) including GPS, GLONASS, and Galileo. Installed on each bus, it continuously retrieves real-time
+                coordinates, ensuring accurate tracking of bus movements. <br> <br>
+
+                <b>GSM 800L Module:</b> Enabling connectivity over the cellular network, the GSM 800L module ensures
+                uninterrupted
+                data transmission regardless of Wi-Fi availability. Through its communication with the ESP32, it
+                facilitates
+                the seamless transfer of location data to the database server, guaranteeing up-to-date information for
+                users
+                of the Merobus app. <br> <br>
+
+
+                This innovative solution revolutionizes public transportation by providing commuters with real-time bus
+                tracking capabilities. By integrating seamlessly with the Merobus app, passengers can now monitor bus
+                locations in real-time, enhancing their overall commuting experience. 🚍 <br> <br>
+            </p>
+
+            </p>
+        </div>
+    </section>
+    <!-- mero bus working procedure -->
+    <section>
+        <p></p>
+        <b></b>
+        <p></p>
+    </section>
+    <section class="container">
+        <div class="video-section">
+            <div class="video" style="align-items: center;justify-content: center;">
+                <img src="./course Photo/MeroBus.png" alt="" style="width: 100%; height: auto; border-radius: 15px;">
+                <div class="videotitle">
+                </div>
+            </div>
+        </div>
+        <div class="description-section">
+            <h1>Schematic Diagram of How my GPS Device and MeroBus Works</h1>
+            <p style="text-align: center;">
+                The Mero Bus application works by utilizing a custom-built GPS tracking device installed on public
+                buses, which continuously gathers real-time location data (latitude and longitude) and sends it to a
+                backend server via HTTP requests over a cellular network. <br> <br>
+                This data is then processed and stored in a
+                PostgreSQL database. The app's frontend, developed in React JS, retrieves this data through REST APIs
+                and displays the live location of buses on an interactive map using Leaflet.js. The integration of
+                WebSocket ensures real-time updates without requiring page refreshes, providing users with a seamless
+                and accurate view of bus movements, thus enhancing the overall public transportation experience.
+            </p>
+
+            </p>
+        </div>
+    </section>
+    <!---facilities-->
+    <!-- <section class="facilities">
+        <h1>Sectors We Work</h1>
+        <p>All types of engineering and land administration related services</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="dgps.jpg">
+                <h3>Land Surveying</h3>
+               
+            </div>
+            <div class="facilities-col1">
+                <img src="classificaton.jpg">
+                <h3>GIS,Remote Sensing</h3>
+               
+            </div>
+            <div class="facilities-col">
+                <img src="website.jpg">
+                <h3>WEB mapping</h3>
+                
+            </div>
+        </div>
+
+    </section> -->
+
+    <!-----Footer---->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Everything you need to succeed is already inside you .<br> you just have to access your inner-power and make
+            it happen.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/hemanta.honeystar.1" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mahatara.hemant/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hemant-mahatara-80b2462b9/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            
+        <p>Made with <i class="fa fa-heart"></i> by Hemant Mahatara</p>
+    </section>
+
+    <!---JavaScript for Toggle menu---->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        const contentContainer = document.querySelector('.content-container');
+
+        contentContainer.addEventListener('wheel', function (event) {
+            event.preventDefault();
+            contentContainer.scrollBy({
+                top: event.deltaY,
+                behavior: 'smooth'
+            });
+        });
+
+
+        // Array of videos, titles, and descriptions
+        const videos = [
+            {
+                src: "./course Photo/hecras.mp4",
+                title: "HEC-RAS and RAS-Mapper Flood Modelling",
+                description: "Excited to share my comprehensive HEC-RAS project journey! 🌊 .For the data I started by digitizing point data in Google Earth Pro..."
+            },
+            {
+                src: "./course Photo/geoserver.mp4",
+                title: "Geoserver For Raster Data Visualization in WebGIS",
+                description: "🚀 Excited to share a recent project where I integrated GeoServer with a custom web application to display raster data using Leaflet!"
+            },
+            {
+                src: "./course Photo/dbms.mp4",
+                title: "Integrating PgAdmin PostGIS and WebGIS using Fast API",
+                description: "I developed an interactive web page using HTML, CSS, JavaScript, and Leaflet, showcasing district and province shapefiles of Nepal..."
+            }
+        ];
+
+        // Initialize current video index
+        let currentVideoIndex = 0;
+
+        // Get video element and other DOM elements
+        const videoPlayer = document.getElementById("videoPlayer");
+        const videoTitle = document.getElementById("videoTitle");
+        const videoDescription = document.getElementById("videoDescription");
+
+        // Function to update video source
+        function updateVideo(index) {
+            videoPlayer.src = videos[index].src;
+            videoTitle.textContent = videos[index].title;
+            videoDescription.textContent = videos[index].description;
+            videoPlayer.load(); // Reload video with new source
+            videoPlayer.play(); // Autoplay the new video
+        }
+
+        // Event listeners for next and previous buttons
+        document.getElementById("nextBtn").addEventListener("click", () => {
+            currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Loop to the start if at the end
+            updateVideo(currentVideoIndex);
+        });
+
+        document.getElementById("prevBtn").addEventListener("click", () => {
+            currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length; // Loop to the end if at the start
+            updateVideo(currentVideoIndex);
+        });
+
+        // Initialize with the first video
+        updateVideo(currentVideoIndex);
+    </script>
+</body>
+
+</html>
