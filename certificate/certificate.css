@@ -45,7 +45,7 @@ h1{
 }
 
 #img {
-    width: 40%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
     height: auto;
     padding: 20px;
     display: inline-block; /* Keep images in a row */
