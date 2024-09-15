@@ -35,4 +35,16 @@ h1{
     width: 50%;
     height: auto;
 }
+.certimages {
+    display: inline-block; /* Ensures images are in a single line */
+    gap: 30px;
+}
+
+#img {
+    width: 40%; /* Adjust as needed */
+    height: auto;
+    padding: 20px;
+    display: inline-block; /* Keep images in a row */
+    margin-right: 30px; /* Adds space between images */
+}
 
