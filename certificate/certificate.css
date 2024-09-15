@@ -6,6 +6,9 @@
     background: #fff3f3;
     border-radius: 10px;
     transition: 0.5s;
+    overflow-x: auto; /* Allows horizontal scroll */
+    white-space: nowrap; /* Prevents wrapping of the images */
+    padding-bottom: 20px; 
 }
 
 .slider:hover {
@@ -35,6 +38,7 @@ h1{
     width: 50%;
     height: auto;
 }
+
 .certimages {
     display: inline-block; /* Ensures images are in a single line */
     gap: 30px;
