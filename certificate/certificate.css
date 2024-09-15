@@ -11,16 +11,18 @@
     padding-bottom: 30px; 
 }
 .sliderGIS {
-        width: 50%;
-    margin: 5% 5%;
+    width: 80%;
+    margin: auto;
     /* margin: auto; */
     height: auto;
     background: #fff3f3;
     border-radius: 10px;
     transition: 0.5s;
-    overflow-x: auto; /* Allows horizontal scroll */
-    white-space: nowrap; /* Prevents wrapping of the images */
-    padding-bottom: 30px; 
+    overflow-x: auto;
+    /* Allows horizontal scroll */
+    white-space: nowrap;
+    /* Prevents wrapping of the images */
+    padding-bottom: 30px;
 }
 
 .slider:hover {
