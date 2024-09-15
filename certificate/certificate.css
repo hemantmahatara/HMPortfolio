@@ -52,3 +52,35 @@ h1{
     margin-right: 30px; /* Adds space between images */
 }
 
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .slider {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #img {
+        width: 80%;
+        padding: 10px;
+        margin-right: 10px; /* Reduce space between images */
+    }
+
+    .certimages {
+        padding-bottom: 10px;
+    }
+}
+
+/* Small devices like smartphones */
+@media (max-width: 480px) {
+    #img {
+        width: 90%; /* Images take up more width on small screens */
+        padding: 5px;
+        margin-right: 5px;
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Adjust title size for small screens */
+    }
+}
