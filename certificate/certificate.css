@@ -11,7 +11,7 @@
     padding-bottom: 30px; 
 }
 .sliderGis {
-    width: 80%;
+    width: 100%;
     margin: auto;
     /* margin: auto; */
     height: auto;
@@ -100,4 +100,46 @@ h1{
     h1 {
         font-size: 1.5rem; /* Adjust title size for small screens */
     }
+}
+
+
+.cv{
+    width: 800%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    gap: 10px;
+
+}
+.article{
+    width: 80%;
+    height: auto;
+    /* margin: auto; */
+    background: #fff3f3;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+button {
+    background-color: #e89e44; /* Green background */
+    color: white;              /* White text */
+    padding: 10px 20px;         /* Padding */
+    border: none;               /* Remove borders */
+    border-radius: 5px;         /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+    font-size: 16px;            /* Text size */
+    transition: background-color 0.3s ease; /* Smooth background change */
+}
+
+button:hover {
+    background-color: #d9c57a; /* Darker green on hover */
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
 }
